@@ -1,0 +1,44 @@
+.token.selector,
+.token.punctuation,
+.token.property
+{
+    color: black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#code-wrapper {
+    height: 100vh;
+    padding: 16px;
+    display: flex;
+}
+#code {
+    width: 100%;
+    overflow: hidden;
+}
+#paper {
+    background: #444;
+    padding: 16px;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    display: flex;
+}
+#paper>.content {
+    width: 100%;
+    height: 100%;
+    padding-left: 16px;
+    overflow: hidden;
+    background-color: white;
+    display: none;
+}
+#paper>.html{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+    overflow: auto;
+  }
